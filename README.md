@@ -1,6 +1,6 @@
-<img width="300" height="300" alt="Image" src="https://github.com/user-attachments/assets/e8733269-904c-4fd3-97f9-efb5aefb8605" />
-
 A 3D graphics rasterization engine built from scratch using PyTorch to calculate millions of operations in parallel using the GPU instead of using for-loops. It calculates how triangular surfaces within a 3D-environment should be displayed from the perspective of a camera with its own coordinates (x, y, z) and angle.
+
+<img width="400" height="400" alt="Image" src="https://github.com/user-attachments/assets/e8733269-904c-4fd3-97f9-efb5aefb8605" />
 
 The shading of each surface is calculated using lambertian reflectance, and depends on light_source_angle, the angle of the surface's normal, and which side of the surface the camera is seeing.
 
