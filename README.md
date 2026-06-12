@@ -1,5 +1,7 @@
 # PyTorch-3D-Rasterizer
 
+<img width="400" height="400" alt="Image" src="https://github.com/user-attachments/assets/9a19312b-20f1-4f7a-b6a2-2dae9879ed57" />
+
 A 3D graphics rasterization engine built from scratch using PyTorch to calculate millions of operations in parallel using the GPU instead of using for-loops. It calculates how triangular surfaces within a 3D-environment should be displayed from the perspective of a camera with its own coordinates (x, y, z) and angle.
 
 The shading of each surface is calculated using lambertian reflectance, and depends on light_source_angle, the angle of the surface's normal, and which side of the surface the camera is seeing.
@@ -12,4 +14,4 @@ How the engine works step-by-step:
 4. In get_general_equations(), one general equation (ax + by + c > 0) is calculated for each edge of each "relevant surface" where x and y are the "2D coordinates" of the corners, as displayed on the screen. We also calculate any triangles become degenerate when displayed on the screen, to avoid showing these.
 5. In get_screen_triangles(), the set of pixels that fall within each surface is calculated, as well as the shade of the to nearest surface for each pixel. This data is then displayed on the screen.
 
-Video showcase: https://youtu.be/-3ZlTCT_nZc?si=WQ_Igk9q-mjqI_Eo
+Youtube showcase: https://youtu.be/-3ZlTCT_nZc?si=WQ_Igk9q-mjqI_Eo
