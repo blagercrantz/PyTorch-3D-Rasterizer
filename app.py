@@ -33,7 +33,6 @@ class RasterizerApp:
         self.lbl_light_source_rot = tk.Label(info_panel, justify="left", anchor="w")
         self.lbl_light_source_rot.pack(anchor="w", pady=6)
 
-        # Build Input Grid for Surface Insertion
         grid_frame = tk.Frame(info_panel)
         grid_frame.pack(pady=(130, 5))
 
