@@ -35,7 +35,7 @@ class RasterizerApp:
 
         # Build Input Grid for Surface Insertion
         grid_frame = tk.Frame(info_panel)
-        grid_frame.pack(pady=(105, 5))
+        grid_frame.pack(pady=(130, 5))
 
         self.entries = []
         labels = ["x", "y", "z"]
