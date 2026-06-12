@@ -1,6 +1,4 @@
-# PyTorch-3D-Rasterizer
-
-<img width="250" height="250" alt="Image" src="https://github.com/user-attachments/assets/c4077bc4-491b-4c49-bc94-419779b8f36d" />
+<img width="250" height="250" alt="Image" src="https://github.com/user-attachments/assets/4b817a81-8aba-442a-b09f-72cc2a67b555" />
 
 A 3D graphics rasterization engine built from scratch using PyTorch to calculate millions of operations in parallel using the GPU instead of using for-loops. It calculates how triangular surfaces within a 3D-environment should be displayed from the perspective of a camera with its own coordinates (x, y, z) and angle.
 
