@@ -1,6 +1,6 @@
 # PyTorch-3D-Rasterizer
 
-This is a rasterizer built using PyTorch to calculate millions of operations in parallel using the GPU instead of using for-loops. It calculates how triangular surfaces within an 3D-environment should be displayed from the perspective of a camera with its own coordinates (x, y, z) and angle.
+This is a rasterizer built using PyTorch to calculate millions of operations in parallel using the GPU instead of using for-loops. It calculates how triangular surfaces within a 3D-environment should be displayed from the perspective of a camera with its own coordinates (x, y, z) and angle.
 
 The shading of each surface is calculated using lambertian reflectance, and depends on light_source_angle, the angle of the surface's normal, and which side of the surface the camera is seeing.
 
